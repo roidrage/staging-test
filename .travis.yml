@@ -1,5 +1,7 @@
 addons:
   - firefox: 19
+services:
+  - cassandra
 before_install:
   - ps axu | grep cassandra
   - sudo service cassandra restart
