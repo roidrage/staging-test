@@ -2,7 +2,7 @@ addons:
   - firefox: 19
 before_install:
   - ps axu | grep cassandra
-  - sudo service cassandra reload
+  - sudo service cassandra restart
   - sleep 5
   - ps axu | grep cassandra
 script:
