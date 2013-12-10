@@ -5,10 +5,8 @@ addons:
 services:
   - cassandra
 before_install:
-  - ps axu | grep cassandra
-  - sudo service cassandra restart
-  - sleep 5
-  - ps axu | grep cassandra
+  - sudo apt-get update
+  - sudo apt-get install host
 script:
   - cat /etc/hosts 
   - host bla.blub.com
