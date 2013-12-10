@@ -1,5 +1,5 @@
 addons:
-  - firefox: 19
+  firefox: 19
 services:
   - cassandra
 before_install:
