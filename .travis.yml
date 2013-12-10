@@ -11,5 +11,6 @@ before_install:
   - ps axu | grep cassandra
 script:
   - cat /etc/hosts 
+  - host bla.blub.com
   - echo $TRAVIS_BUILD_DIR
 
