@@ -1,5 +1,7 @@
 addons:
   firefox: 19
+  hosts:
+    - bla.blub.com
 services:
   - cassandra
 before_install:
