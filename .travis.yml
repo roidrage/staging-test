@@ -3,9 +3,11 @@ addons:
   hosts:
     - bla.blub.com
     - blub.bla.com
+jdk: openjdk7
 services:
   - cassandra
 before_install:
+  - sudo service cassandra restart
 script:
   - cat /etc/hosts 
   - echo $TRAVIS_BUILD_DIR
