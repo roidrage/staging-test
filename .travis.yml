@@ -6,10 +6,7 @@ addons:
 services:
   - cassandra
 before_install:
-  - sudo apt-get update
-  - sudo apt-get install host
 script:
   - cat /etc/hosts 
-  - host bla.blub.com
   - echo $TRAVIS_BUILD_DIR
 
