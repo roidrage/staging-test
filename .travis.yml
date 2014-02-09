@@ -1,2 +1,4 @@
 install: /bin/true
-script: ./script.sh
+script:
+  - echo $PS4
+  - ./script.sh
