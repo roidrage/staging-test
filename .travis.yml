@@ -1,6 +1,2 @@
-rvm:
-  - 2.0.0-p247
-  - ree-1.8.7-2011.12
-  - 2.1.0-rc1
 install: /bin/true
-script: ruby -v
+script: ./script.sh
