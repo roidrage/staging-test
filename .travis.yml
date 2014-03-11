@@ -2,4 +2,4 @@ install: /bin/true
 script: /bin/true
 notifications:
   slack:
-    secure: "jOA+8fhmpw3NPBq32h4flqziZkZhSeic0Xqf7PnJS32sogQq84J2JeaHB5PjaFIrNYxbeVEyluVxsYMWh1dXBBJw5/OS/ZFtan4+NKIKisW76ZSH9JxqzVvwYtJSydG6iBAADHmUsXNWgxOX2m36KQFA40sbflXex9GExqFzqr8="
+    secure: "OUpTAqohACrwbEuJLgypFeu09/uB6HbDyzL03oWh/LAya0Kvjl08cn9/tw2Bg3yx5mtRuRKmSUovjvR0mwYvWuQl6iZnemuxtMOTpxHTuHNFJjeTjqbNXkgXntzzQtt4ETG1uQmWKxDUxeOgBmlELV9L1WKvviWz+u1fQrXqXY8="
