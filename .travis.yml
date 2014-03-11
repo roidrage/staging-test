@@ -1,4 +1,5 @@
 install: /bin/true
-script:
-  - echo $PS4
-  - ./script.sh
+script: /bin/true
+notifications:
+  slack:
+    secure: "XhX0sy+xOWStXXVhRDYalZ8sntrJvCJCxthxMuLhH/FQmxhxGha6hnYz0cN7CGcyEH4volBRfp6R6xZKtgqcoPsIRfVNOGMhCfcIdxph9rFFMyFg7Q+YWQWHNMeDQtnl5br3WIY98+vhGNfWPzInIs0J6sPYOlBA2AlT7AAoM7I="
