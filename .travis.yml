@@ -1,4 +1,3 @@
 install: /bin/true
 script: /bin/true
-notifications:
-  slack: travisci:NYwEKPIIELfgS9NNMGUhRp8r#general
+after_success: '[ "${TRAVIS_BRANCH}" = "slack" ] && echo hello || /bin/true'
