@@ -1,4 +1,4 @@
 install: /bin/true
 script: /bin/false
 notifications:
-  slack: travisci:Ob4KDKqRUC6shgeu5XDO2cxe
+  slack: travisci:NYwEKPIIELfgS9NNMGUhRp8r
