@@ -1,4 +1,3 @@
 install: /bin/true
-script:
-  - echo $PS4
-  - ./script.sh
+script: /bin/true
+after_success: '[ "${TRAVIS_BRANCH}" = "slack" ] && echo hello || /bin/true'
