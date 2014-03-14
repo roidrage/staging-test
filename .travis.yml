@@ -1,4 +1,3 @@
 install: /bin/true
 script: /bin/true
 after_success: '[ "${TRAVIS_BRANCH}" = "slack" ] && echo hello || /bin/true'
-
